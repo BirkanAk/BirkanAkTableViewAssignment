@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
             tableRow = new TableRow(this);
             ImageView im = new ImageView(this);
             im.setImageDrawable(getResources().getDrawable(R.drawable.melkor));
-            tableRow.addView(im,127,136);
+            tableRow.addView(im,233,233);
             TextView text = new TextView(this);
             text.setText("You have picked Melkor, the God of Corruption!");
             tableRow.addView(text,1);
@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
             tableRow = new TableRow(this);
             ImageView im = new ImageView(this);
             im.setImageDrawable(getResources().getDrawable(R.drawable.mandos));
-            tableRow.addView(im,127,136);
+            tableRow.addView(im,233,233);
             TextView text = new TextView(this);
             text.setText("You have picked Mandos, the God of the Dead!");
             tableRow.addView(text,1);
@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
             tableRow = new TableRow(this);
             ImageView im = new ImageView(this);
             im.setImageDrawable(getResources().getDrawable(R.drawable.ulmo));
-            tableRow.addView(im,127,136);
+            tableRow.addView(im,233,233);
             TextView text = new TextView(this);
             text.setText("You have picked Ulmo, the God of Seas!");
             tableRow.addView(text,1);
@@ -133,7 +133,7 @@ public class MainActivity extends AppCompatActivity {
             tableRow = new TableRow(this);
             ImageView im = new ImageView(this);
             im.setImageDrawable(getResources().getDrawable(R.drawable.tulkas));
-            tableRow.addView(im,127,136);
+            tableRow.addView(im,233,233);
             TextView text = new TextView(this);
             text.setText("You have picked Tulkas, the God of Strength!");
             tableRow.addView(text,1);
